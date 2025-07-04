@@ -1,1 +1,100 @@
-# tuntufye4.github.io
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuntufye Mwanyongo</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-green-900 text-white">
+
+  <!-- Navbar -->
+  <header class="bg-white text-black shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Tuntufye Mwanyongo</h1>
+      <nav class="space-x-6 text-sm font-medium">
+        <a href="#bio" class="hover:underline">Bio</a>
+        <a href="#experience" class="hover:underline">Experience</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-green-800 py-12" id="bio">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div class="text-center md:text-left">
+        <img src="pic.jpg" alt="Profile" class="w-32 h-32 mx-auto md:mx-0 rounded-full border-4 border-white" />
+        <h2 class="mt-4 text-2xl font-bold">Tuntufye Mwanyongo</h2>
+        <p class="text-sm opacity-80">Software Engineering & Data Science Consultant</p>
+        <p class="mt-4 text-gray-200"> 
+          BSc in Computer Engineering.
+        </p>
+        <div class="mt-4">
+          <a href="#" class="bg-gray-200 text-black font-medium px-4 py-2 rounded hover:bg-white transition">Download CV</a>
+        </div>
+        <div class="mt-4 flex justify-center md:justify-start space-x-4 text-xl">
+          <a href="mailto:tuntumwanyongo@gmail.com" title="Email" aria-label="Email">📧</a>
+          <a href="https://github.com/Tuntufye4" target="_blank" title="GitHub" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tuntufye-mwanyongo-36b6a6197/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-2">About Me</h3>
+        <p class="text-gray-200">
+          I work with clients and organizations to build robust software solutions, implement scalable data pipelines, and apply machine learning to solve real-world problems.
+        </p>
+
+        <div class="mt-6 p-4 bg-green-700 rounded-lg text-gray-100 italic border-l-4 border-green-300">
+          My primary focus lies in utilizing data science and software engineering as powerful tools to address and advance sustainable development goals.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interests & Education -->
+  <section class="bg-green-900 py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12">
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Interests</h3>
+        <ul class="list-disc list-inside space-y-1 text-gray-200">
+          <li>Artificial Intelligence</li>
+          <li>Data Engineering & Governance</li>
+          <li>Health Informatics</li>
+          <li>Software Systems Design</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Education</h3>
+        <ul class="space-y-2 text-gray-200">
+          <li><strong>BSc Computer Engineering</strong> – University of Livingstonia</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-green-800 py-12" id="contact">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+      <p class="text-gray-200 mb-4">Feel free to reach out for consulting, collaboration, or speaking engagements.</p>
+      <p>Email: <a href="mailto:tuntumwanyongo@gmail.com" class="underline">tuntumwanyongo@gmail.com</a></p>
+      <p>Phone: <a href="tel:+265881209739" class="underline">+265 881 209 739</a></p>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-sm text-gray-300 bg-green-900">
+    &copy; 2025 Tuntufye Mwanyongo. All rights reserved.
+  </footer>
+ 
+</body>
+</html>
+
